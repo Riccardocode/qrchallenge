@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+:root {
+  --WhiteVar: hsl(0, 0%, 100%);
+  --Light-grayVar: hsl(212, 45%, 89%);
+  --Grayish-blueVar: hsl(220, 15%, 55%);
+  --Dark-blueVar: hsl(218, 44%, 22%);
+}
+
+*{
+    margin:0;
+}
+p{
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    color: var(--Grayish-blueVar);
+     
+    margin-right: 15px;
+    margin-left: 15px;
+   font-size: 13px;
+    margin-bottom:15px;
+    text-align: center;
+   
+}
+h3{
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+    color: var(--Dark-blueVar);
+    margin: 15px;
+    text-align: center;
+}
+.font400 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  
+}   
+.font700 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+}
+
+body {
+  background-color: var(--Light-grayVar);
+  font-size: 15px;
+}
+.mainBody {
+  background-color: var(--WhiteVar);
+  width: 250px;
+  height: 410px;
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+  border-radius: 15px;
+}
+.centerBlock {
+  max-width: 1440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.imageQR{
+    width: 230px;
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: -10px;
+    margin-bottom: 8px;
+
+}
+
